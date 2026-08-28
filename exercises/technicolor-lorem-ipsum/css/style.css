@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color:purple;
+}
+
+#s1 {
+    background-color: pink;
+    color: black;
+}
+
+#s2 {
+    background-color: chocolate;
+}
+
+#s3 {
+    background-color: violet;
+    color: white;
+}
+
+#p2 {
+    color: red;
+}
+
+#s4{
+    background-color: yellow;
+}
+
+#s5{
+    background-color: orange;
+    color: black;
+}
+
+#s6{
+    background-color: aqua;
+}
+
+#p3{
+    color: green;
+}
+
+#s7{
+    background-color: beige;
+}
+
+#s8{
+    background-color: black;
+    color: red;
+}
+
+#s9{
+    background-color: pink;
+}
