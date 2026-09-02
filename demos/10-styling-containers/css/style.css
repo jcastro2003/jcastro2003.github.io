@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color: lightgreen;
+}
+
+.shadowed {
+    background-color: grey;
+    margin: 24px;
+    padding: 24px;
+     /* x-offset, y-offset, blur-radius, color */
+    box-shadow: 4px 4px 4px rgb(0,229,34);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
