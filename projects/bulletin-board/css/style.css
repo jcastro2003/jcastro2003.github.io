@@ -1,0 +1,37 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it {
+    background-color: beige;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-family: cursive;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    box-shadow: 5px 5px 10px black;
+}
+
+.yellow {
+    background-color: yellow;
+    font-family: Italic;
+    font-size: 40px;
+}
+
+.light-blue {
+    background-color: lightblue;
+    font-family: cursive;
+}
+
+.orange {
+    background-color: orange;
+    font-family: Italic;
+    font-size: 20px;
+}

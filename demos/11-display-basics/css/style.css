@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+p {
+    background-color: beige;
+}
+
+span {
+    background-color: turquoise;
+    display: block;
+}
+
+div {
+    background-color: salmon;
+    display: inline;
+}
+
+.card {
+    background-color:  orange;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 12px;
+    padding: 12px;
+}
