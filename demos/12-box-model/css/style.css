@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    margin: 24px 36px;
+    border: 12px solid darkcyan;
+    border-radius: 23px;
+    background-color: yellow;
+    padding: 24px;
+}
