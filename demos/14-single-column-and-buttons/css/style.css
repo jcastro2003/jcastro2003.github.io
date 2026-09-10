@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: lightcoral;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    display: inline-block; /* VERY IMPORTANT! */
+}
+
+.primary {
+    background-color:  green;
+    color: white;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.secondary {
+    color: green;
+    border: 3px solid white;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+}
