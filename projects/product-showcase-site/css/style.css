@@ -13,12 +13,14 @@ h1 {
     font-family: "Fira Sans", sans-serif;
     text-align: center;
     color: white;
+    font-size: 18px;
 }
 
 h3 {
     font-family: "Cantarell", sans-serif;
     text-align: center;
     color: white;
+    font-size: 24px;
 }
 
 p {
@@ -38,13 +40,33 @@ img {
     text-align: center;
 }
 .fragrance-1 {
-    background-color: #086CA2;
-     
+    background-color: #086CA2;   
+}
+
+.primary-1 {
+    background-color: white;
+    color:#086CA2;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 12px;
+    margin: 12px;
 }
 
 .fragrance-2 {
     background-color: #829254;
-    
+}
+
+.primary-2 {
+    background-color: white;
+    color: #829254;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 12px;
+    margin: 12px;
 }
 
 .fragrance-3 {
@@ -52,23 +74,35 @@ img {
     
 }
 
-.fragrance-4 {
-    background-color: #BCBCBC;
-}
-
-.button {
-    text-decoration: none;
-    color: white;
-    display: inline-block; /*VERY IMPORTANT!*/
-}
-
-.primary {
-    background-color:  white;
-    color: black;
+.primary-3 {
+    background-color: white;
+    color: #EA9999;
     padding: 12px;
     border-radius: 16px;
     font-size: 20px;
     font-weight: bold;
     margin-right: 12px;
-    
+    margin: 12px;
+
+}
+
+.fragrance-4 {
+    background-color: #BCBCBC;
+}
+
+.primary-4 {
+    background-color: white;
+    color: #BCBCBC;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 12px;
+    margin: 12px;
+}
+
+.button {
+    text-decoration: none;
+    color: button;
+    display: inline-block; /*VERY IMPORTANT!*/
 }
