@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&family=Vujahday+Script&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: "Story Script", sans-serif;
+}
+
+h3 {
+    font-family: "Vujahday Script", cursive;
+}
+
+.single-column {
+    /*background-color: lightcoral; */
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+.light-container {
+    background-color: lightcoral;
+    padding: 48px 0px; 
+}
+
+.dark-container {
+    background-color: coral
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    display: inline-block; /* VERY IMPORTANT! */
+}
+
+.primary {
+    background-color:  green;
+    color: white;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.secondary {
+    color: green;
+    border: 3px solid white;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+}
