@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient(#840101,black);
+    background: linear-gradient(#840101, black);
     min-height: 100vh;
 }
 
@@ -30,12 +30,13 @@ img {
 .single-column {
     background-color: #dddddd;
     padding: 24px;
+    flex: 1;
 }
 
 .button {
     text-decoration: none;
     color: white;
-    display: inline-block; /* VERY IMPORTANT! */
+    display: inline-block; 
 }
 
 .primary {
