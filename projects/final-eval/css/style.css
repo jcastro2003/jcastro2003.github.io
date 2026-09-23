@@ -38,8 +38,8 @@ h2 {
 .side-by-side {
     display: flex;
     justify-content: space-around;
-    gap: 110px;
-    
+    align-items: center;
+    gap: 90px;
 }
 
 .team-1 {
@@ -67,5 +67,37 @@ h2 {
 }
 
 p {
-    
+    font-size: 60px;
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block; /* VERY IMPORTANT! */
+}
+
+.primary {
+    background-color: yellow;
+    color: black;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.secondary {
+    color: black;
+    background-color: yellow;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
 }
