@@ -21,7 +21,7 @@ body {
 
 #hero-4 {
     background-image: url("../images/hero.jpg");
-    height: 0%;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -75,11 +75,20 @@ body {
     object-fit: cover;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 950px) {
+    #hero-4 {
+        height: 50vh;
+    }
+    
+    #hero-4 h2 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 420px) {
     #navbar {
         flex-direction: column;
         align-items: center;
     }
     
 }
-
