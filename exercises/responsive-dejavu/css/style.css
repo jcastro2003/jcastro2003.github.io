@@ -21,7 +21,7 @@ body {
 
 #hero-4 {
     background-image: url("../images/hero.jpg");
-    height: 100vh;
+    height: 0%;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -36,13 +36,13 @@ body {
 }
 
 #hero-4 h2 {
-    font-size: 100px;
+    font-size: 200px;
     margin-bottom: 36px;
 }
 
 #hero-4 h3 {
     font-size: 50px;
-    margin-bottom: 36px;
+    margin-bottom: 60px;
 }
 
 #hero-4 h4 {
@@ -80,9 +80,6 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    #hero-4  {
-        background-image: none;
-        background-color: rgb(216, 164, 68);
-    }
+    
 }
 
