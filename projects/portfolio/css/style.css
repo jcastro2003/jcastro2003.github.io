@@ -27,13 +27,13 @@ body {
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 #hero-4 .hero-content {
     text-align: center;
-    color: goldenrod;
+    color: gold;
     padding-top: 100px;
 }
 
@@ -74,7 +74,7 @@ body {
 h3 {
     text-align: center;
     font-size: 40px;
-    color: gold
+    color: gold;
 }
 
 .single-column {
@@ -164,7 +164,8 @@ h3 {
 
 @media screen and (max-width: 1080px) {
     .card-container {
-       display: flex;
-       justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
 }
