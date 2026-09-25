@@ -22,7 +22,7 @@ body {
 
 #hero-4 {
     background-image: url("../images/urban-hi-res-2nse.jpg");
-    height: 80vh;
+    height: 60vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -90,6 +90,7 @@ h3 {
 .card-container {
     display: flex;
     justify-content: space-between;
+
 }
 
 .card {
@@ -158,5 +159,12 @@ h3 {
 
     #hero-4 {
         height: 50vh;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .card-container {
+       display: flex;
+       justify-content: space-between;
     }
 }
