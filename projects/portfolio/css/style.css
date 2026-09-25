@@ -37,8 +37,9 @@ body {
 }
 
 #hero-4 h2 {
-    font-size: 120px;
+    font-size: 110px;
     margin-bottom: 36px;
+    
 }
 
 .button {
@@ -112,35 +113,37 @@ h3 {
 .button-1 {
     background-color: rgb(224, 222, 222);
     color: black;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    
+    display: inline-block;
 }
 
 .button-2 {
     background-color: rgb(224, 222, 222);
     color: black;
-    padding: 24px;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    display: inline-block;
 }
 
 .button-3 {
     background-color: rgb(224, 222, 222);
     color: black;
-    padding: 24px;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    display: inline-block;
 }
 
 @media screen and (max-width: 870px) {
