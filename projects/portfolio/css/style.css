@@ -114,7 +114,7 @@ h3 {
     background-color: rgb(224, 222, 222);
     color: black;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 30px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -125,8 +125,8 @@ h3 {
 .button-2 {
     background-color: rgb(224, 222, 222);
     color: black;
-    padding: 8px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 30px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -137,8 +137,8 @@ h3 {
 .button-3 {
     background-color: rgb(224, 222, 222);
     color: black;
-    padding: 8px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 30px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
