@@ -33,7 +33,7 @@ body {
 
 #hero-4 .hero-content {
     text-align: center;
-    color: rgb(177, 169, 14);
+    color: rgb(251, 241, 51);
     padding-top: 100px;
 }
 
@@ -166,6 +166,5 @@ h3 {
     .card-container {
        display: flex;
        justify-content: space-between;
-       
     }
 }
